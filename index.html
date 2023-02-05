@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title> Music ai app</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="main.js"></script>
+    </head>
+    <center>
+    <body background="istockphoto-1076840920-612x612.jpg">
+<div class="btn btn-warning head">
+    <h1 >Music App</h1>
+    <span id="span" >NOTE - Move your left-hand wrist up and down for increasing and decreasing the volume. 
+        Move your right-hand wrist up and down for increasing and decreasing the speed</span>
+</div>
+
+<div id="speed">
+  <span>
+    <img class="dj" src="disk.gif">
+    <br>
+    <h2 class="btn btn-danger">speed= </h2>
+      </div>
+      <div id="volume">
+        <img class="dj" src="disk.gif">
+      </span>
+        <br>
+        <h2 class="btn btn-danger">volume=</h2>
+          </div>
+        <br><br>
+      <button onclick="play();" class="btn btn-success play_btn">PLAY</button>
+</center>
+    </body>
+</html>

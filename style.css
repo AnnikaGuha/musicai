@@ -1,0 +1,14 @@
+.head{
+    width: 100%;
+}
+canvas{
+background-color: white;
+border-radius: 50px;
+
+margin-top: 100px;
+
+}
+.dj{
+    height: 100px;
+    width:100px
+}
